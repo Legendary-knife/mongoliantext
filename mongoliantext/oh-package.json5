@@ -1,0 +1,12 @@
+{
+  "name": "@mongolian/mongoliantext",
+  "version": "1.0.0",
+  "description": "蒙古文竖向排版的arkts组件",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "repository": '',
+  "artifactType": "obfuscation",
+  "dependencies": {},
+  "compatibleSdkType": "HarmonyOS"
+}

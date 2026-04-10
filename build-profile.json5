@@ -1,0 +1,60 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\13502\\.ohos\\config\\default_mongolian_AS1TmhMSNefTraWrxQ7rSIOtokhK34eaUCPpOHjhI5A=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B173993520349D02E3841E24D670948DB1F3C0FC7A048766D85A86993F0C000B5D5D93555C618FD",
+          "profile": "C:\\Users\\13502\\.ohos\\config\\default_mongolian_AS1TmhMSNefTraWrxQ7rSIOtokhK34eaUCPpOHjhI5A=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\13502\\.ohos\\config\\default_mongolian_AS1TmhMSNefTraWrxQ7rSIOtokhK34eaUCPpOHjhI5A=.p12",
+          "storePassword": "0000001BF2B118C64115068027CD9DD051A20A6835348E8CE627367FBC19B5BF8F4126E386FCE0346A046F"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.2(22)",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mongoliantext",
+      "srcPath": "./mongoliantext"
+    }
+  ]
+}
