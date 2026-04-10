@@ -5,7 +5,7 @@
   "main": "Index.ets",
   "author": "",
   "license": "Apache-2.0",
-  "repository": '',
+  "repository": 'https://github.com/Legendary-knife/mongoliantext',
   "artifactType": "obfuscation",
   "dependencies": {},
   "compatibleSdkType": "HarmonyOS"
